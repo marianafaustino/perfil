@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 
 // páginas:
 import Home from './pages/Home'
-import About from './pages/About';
+import Formacao from './pages/Formacao';
 import Product from './pages/Product';
 import NotFound from './pages/NotFound';
 
@@ -17,13 +17,13 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <h1>React Router</h1>
+      <h1>Mariana Faustino</h1>
       <BrowserRouter>
   {/* 2- links com react router */}
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
+        <Route path='/formacao' element={<Formacao/>}/>
         <Route path='/products/:id' element={<Product/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
