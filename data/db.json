@@ -1,0 +1,36 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "curso": "Administração",
+      "instituicao": "Estácio de Sá",
+      "grau": "Bacharelado",
+      "periodo": "2014-2018",
+      "status": "concluído"
+    },
+    {
+      "id": 2,
+      "curso": "Análise e Desenvolvimento de Sistemas",
+      "instituicao": "Unopar",
+      "grau": "Tecnólogo",
+      "periodo": "2022-2024",
+      "status": "cursando"
+    },
+    {
+      "id": 3,
+      "curso": "HTML5, CSS3 e JavaScript",
+      "instituicao": "Curso em Vídeo",
+      "grau": "Curso de nível básico",
+      "periodo": "2022",
+      "status": "concluído"
+    },
+    {
+      "id": 4,
+      "curso": "React",
+      "instituicao": "Udemy",
+      "grau": "Curso para inciantes",
+      "periodo": "2023",
+      "status": "cursando"
+    }
+  ]
+}
