@@ -1,7 +1,7 @@
 import './App.css';
 
 // 1- configurando react routes
-import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 // páginas:
 import Home from './pages/Home'

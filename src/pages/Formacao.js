@@ -6,7 +6,7 @@ const Formacao = () => {
 
   const url = 'http://localhost:3004/cursos'
 
-  const {data: items, loading, error}= useFetch(url)
+  const {data: items, error}= useFetch(url)
 
   return (
     <div>
