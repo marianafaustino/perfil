@@ -1,13 +1,15 @@
 nav{
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
 nav a{
-    margin: 0 10px;
+    margin: 0 1px;
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
+    background-color: #ba456a;
 }
 
 nav a:hover{
@@ -15,6 +17,6 @@ nav a:hover{
 }
 
 .active{
-    background-color: black;
+    background-color: #784d5f;
     color: #fff;
 }

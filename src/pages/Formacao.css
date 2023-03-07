@@ -1,15 +1,36 @@
 .cursos{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 
 .cursos li{
-    border: 1px solid #efefef;
-    border-radius: 5px;
+    border: 5px solid white;
+    border-radius: 30px;
     padding: 10px;
     text-align: center;
     list-style: none;
-    margin: 0 10px;
+    margin: 10px;
     width: 25%;
+    background-color: #d8d3ab;
+}
+
+.cursos li h2{
+    color: #784d5f;
+}
+
+.cursos li h2:hover{
+    color: #b0b19f;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.568);
+
+}
+
+.cursos li p{
+    color: #b0b19f;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.534);
+}
+
+.cursos li a{
+    color: #784d5f;
+    text-decoration: none;
 }

@@ -6,10 +6,9 @@ import {NavLink} from "react-router-dom"
 const Navbar = () => {
   return (
     <nav>
-        {/* <Link to="/" >Home</Link>
-        <Link to="/about" >Sobre</Link> */}
-        <NavLink to="/">Sobre</NavLink>
+        <NavLink to="/">Início</NavLink>
         <NavLink to="/formacao">Formação</NavLink>
+        <NavLink to="/contatos">Contatos</NavLink>
     </nav>
   )
 }

@@ -1,0 +1,16 @@
+h3, p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #b0b19f;
+}
+
+img{
+    padding-top: 30px;
+}
