@@ -23,7 +23,7 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/perfil' element={<Home/>}/>
         <Route path='/formacao' element={<Formacao/>}/>
         <Route path='/contatos' element={<Contatos/>}/>
         <Route path='/formacao/:id' element={<Detalhe/>}/>
