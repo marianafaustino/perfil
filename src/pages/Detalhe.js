@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import {useFetch} from '../hooks/useFetch'
 import './Detalhe.css'
 
@@ -20,6 +20,9 @@ const Detalhe = () => {
     <p>Período: {curso.periodo}</p>
     <p>Status: {curso.status}</p>
     </div>}
+    <p className="p">
+      <Link to={'/formacao'}>&#x1F519; voltar</Link>
+    </p>
     </>
   )
 }
